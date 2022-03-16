@@ -194,8 +194,8 @@ def calc_M_value():
 # вывод результата в файл формата mv2 - для визуаизации
 
 def print_in_mv2():
-    with open("D://result_mke.txt", 'w') as file:
-        file.write(str(len(nodes)) + ' 3 3 teta   \n')
+    with open("./result_mke.txt", 'w') as file: 
+        file.write(str(len(nodes)) + ' 3 1 F   \n')
         for i in range(len(nodes)):
             str_buf1 = ''
 
